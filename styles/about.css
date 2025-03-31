@@ -1,0 +1,7 @@
+#about{
+  background: var(--surface-color);
+
+  & .event-columns{
+    gap: 2rem;
+  }
+}
