@@ -10,9 +10,14 @@
     border-radius: .5rem;
     background: var(--btn-bg-color);
     color: var(--btn-color);
+    
+    
 }
 .btn:hover{
     --btn-bg-color: linear-gradient(90deg,var(--brand-color-secondary) 0%, var(--brand-color-primary) 100%); 
+    -webkit-background-clip: initial;
+    background-clip: initial;
+    color: var(--btn-color);
 }
 .btn-sm{
     padding: .5rem 1rem;
@@ -43,5 +48,17 @@
         color: transparent;
         position: relative;
         z-index: 1;
+    }
+}
+
+@media(width>= 80em){
+
+    .btn-sm{
+        font-size: var(--fs-base);
+        padding: .75rem 1.5rem;
+    }
+    .btn-md{
+        font-size: 1.125rem;
+        padding: 1rem 2rem; 
     }
 }
