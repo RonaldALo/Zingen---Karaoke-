@@ -37,7 +37,7 @@
     --px-lg: 1.5rem;
     --py-base: 1rem;
     --py-lg: 1.5rem;
-    --py-xl: 3rem;
+    --py-xl: 4rem;
 
 }
 
@@ -80,7 +80,10 @@ a:hover{
   background-clip: text;
   color: transparent;
 }
-
+img{
+    max-width: 100%;
+    display: inline-block;
+}
 ul[role='list']{
     list-style: none;
 }
