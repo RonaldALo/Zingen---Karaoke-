@@ -25,13 +25,16 @@
     --fw-base: 400;
     --fw-md: 500;
     --fw-bold: 800;
-    --fs-sm:0.875rem;
+    
+    /* ##fontes */
+    --fs-sm: .875rem;
     --fs-base: 1rem;
     --fs-lg: 1.25rem;
     --fs-xl: 1.5rem;
+    /* ##fontes */
+    
     --fs-2xl: 2.5rem;
     --px-lg: 1.5rem;
-
     --py-base: 1rem;
     --py-lg: 1.5rem;
     --py-xl: 3rem;
