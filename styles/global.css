@@ -47,6 +47,7 @@ html{
     color: var(--text-color-secondary);
     line-height: 1.6;
     font-weight: var(--fs-base);
+    scroll-behavior: smooth;
 }
 
 body{

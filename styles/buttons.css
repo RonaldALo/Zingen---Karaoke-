@@ -38,7 +38,7 @@ a.btn{
         content: '';
         background: var(--bg-color);
         border-radius: inherit;
-        inset: .09375rem;
+        inset: 1px;
     }
     &::after{
         content: attr(aria-label);
